@@ -1,0 +1,661 @@
+{
+ "environment": "Python 3.12.2 (CPython), Windows 11, AMD64, 16 logical CPUs",
+ "scaling": [
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.0007537999772466719,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.0006337999948300421,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.000695600057952106,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.001913999964017421,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.0014432999887503684,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.0016026999801397324,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.0035937000066041946,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.003275000024586916,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.003997699997853488,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.008915599959436804,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.006792300031520426,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.008719799981918186,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.023135900031775236,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.016002500022295862,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.018765299988444895,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.039879799995105714,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.03369010001188144,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.04098470002645627,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "random",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.08496290002949536,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "random",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.07416730001568794,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "random",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.08846060000360012,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 1000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.0004273999948054552,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.000546499970369041,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 2000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.0009147999808192253,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.0012827000464312732,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 4000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.0019846000359393656,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.0027456999523565173,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 8000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.004579000000376254,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.007069400046020746,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 16000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.009512399963568896,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.014630299992859364,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 32000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.024242599960416555,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.034880799998063594,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "sorted",
+   "n": 64000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "sorted",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.047345199971459806,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "sorted",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.06934489996638149,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.0018765999702736735,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.0004779000300914049,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 1000,
+   "status": "ok",
+   "seconds": 0.002034100005403161,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.006599900021683425,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.0009745999705046415,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 2000,
+   "status": "ok",
+   "seconds": 0.006921700027305633,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.02598899998702109,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.0024017999530769885,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 4000,
+   "status": "ok",
+   "seconds": 0.026490800024475902,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.1010241000331007,
+   "detail": null
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.00518420001026243,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 8000,
+   "status": "ok",
+   "seconds": 0.10823879996314645,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 16000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.011784400034230202,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 16000,
+   "status": "ok",
+   "seconds": 0.40293739998014644,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 32000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 0.025050700001884252,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 32000,
+   "status": "ok",
+   "seconds": 1.4998413000139408,
+   "detail": null
+  },
+  {
+   "algo": "basic",
+   "kind": "duplicates",
+   "n": 64000,
+   "status": "crash",
+   "seconds": null,
+   "detail": "RecursionError"
+  },
+  {
+   "algo": "improved",
+   "kind": "duplicates",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 0.053965099970810115,
+   "detail": null
+  },
+  {
+   "algo": "lomuto_random",
+   "kind": "duplicates",
+   "n": 64000,
+   "status": "ok",
+   "seconds": 6.409883500018623,
+   "detail": null
+  }
+ ],
+ "recurrence": {
+  "max_sorted_n_default_limit": 995,
+  "counts": [
+   {
+    "n": 100,
+    "n_choose_2": 4950,
+    "random": 630,
+    "sorted": 4950,
+    "duplicates": 860,
+    "n_log2_n": 664.3856189774724
+   },
+   {
+    "n": 200,
+    "n_choose_2": 19900,
+    "random": 1869,
+    "sorted": 19900,
+    "duplicates": 2758,
+    "n_log2_n": 1528.7712379549448
+   },
+   {
+    "n": 400,
+    "n_choose_2": 79800,
+    "random": 3451,
+    "sorted": 79800,
+    "duplicates": 9289,
+    "n_log2_n": 3457.54247590989
+   },
+   {
+    "n": 800,
+    "n_choose_2": 319600,
+    "random": 8527,
+    "sorted": 319600,
+    "duplicates": 35098,
+    "n_log2_n": 7715.08495181978
+   },
+   {
+    "n": 1600,
+    "n_choose_2": 1279200,
+    "random": 20228,
+    "sorted": 1279200,
+    "duplicates": 133960,
+    "n_log2_n": 17030.169903639562
+   }
+  ],
+  "times": [
+   {
+    "n": 500,
+    "seconds": 0.009057699993718415
+   },
+   {
+    "n": 1000,
+    "seconds": 0.039186100009828806
+   },
+   {
+    "n": 2000,
+    "seconds": 0.1658873000415042
+   },
+   {
+    "n": 4000,
+    "seconds": 0.6802385000046343
+   },
+   {
+    "n": 8000,
+    "seconds": 2.7783805999788456
+   }
+  ]
+ },
+ "cutoff": {
+  "n": 100000,
+  "rounds": 9,
+  "rows": [
+   {
+    "cutoff": 1,
+    "best": 0.16711280000163242,
+    "median": 0.1780360999982804,
+    "worst": 0.1813372999895364
+   },
+   {
+    "cutoff": 4,
+    "best": 0.1289223000057973,
+    "median": 0.13866909994976595,
+    "worst": 0.14969619998009875
+   },
+   {
+    "cutoff": 8,
+    "best": 0.11981080000987276,
+    "median": 0.1293910999665968,
+    "worst": 0.13753730000462383
+   },
+   {
+    "cutoff": 16,
+    "best": 0.1213817999814637,
+    "median": 0.12899400002788752,
+    "worst": 0.1426723999902606
+   },
+   {
+    "cutoff": 32,
+    "best": 0.13646509998943657,
+    "median": 0.14045409997925162,
+    "worst": 0.1489513000124134
+   },
+   {
+    "cutoff": 64,
+    "best": 0.16732010000851005,
+    "median": 0.1720833999570459,
+    "worst": 0.18638900003861636
+   }
+  ],
+  "best_cutoff": 16
+ },
+ "vs_sorted": {
+  "rows": [
+   {
+    "kind": "random",
+    "n": 100000,
+    "mine": 0.12660660000983626,
+    "sorted": 0.011523599969223142,
+    "ratio": 10.986722929290593
+   },
+   {
+    "kind": "random",
+    "n": 64000,
+    "mine": 0.07861199998296797,
+    "sorted": 0.007467099989298731,
+    "ratio": 10.527781882608858
+   },
+   {
+    "kind": "sorted",
+    "n": 64000,
+    "mine": 0.04815919999964535,
+    "sorted": 0.00040149997221305966,
+    "ratio": 119.94820257195244
+   },
+   {
+    "kind": "duplicates",
+    "n": 64000,
+    "mine": 0.055496999993920326,
+    "sorted": 0.0033386999857611954,
+    "ratio": 16.622338104831986
+   }
+  ],
+  "comparisons_n": 100000,
+  "comparisons": {
+   "improved": 2151347,
+   "lomuto_random": 1947525,
+   "basic": 1930535,
+   "sorted": 1528954,
+   "n_log2_n": 1660964.0474436812
+  },
+  "t_basic_100k": 0.14746489998651668,
+  "t_lomuto_100k": 0.14831600000616163
+ }
+}
