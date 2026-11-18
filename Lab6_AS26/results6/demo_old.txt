@@ -1,0 +1,8 @@
+def greet(name):
+    print("Hello " + name)
+
+def add(a, b):
+    return a + b
+
+print(greet("Ann"))
+print(add(1, 2))

@@ -1,0 +1,8 @@
+test,dimensions,optimal_cost,parenthesisation,left_to_right_cost,brute_force
+CLRS example,30 35 15 5 10 20 25,15125,((A1(A2A3))((A4A5)A6)),40500,15125
+second example,5 4 6 2 7,158,((A1(A2A3))A4),250,158
+random chain 1,25 37 37 46 60,145775,(((A1A2)A3)A4),145775,145775
+random chain 2,19 43 44 40 31,92948,(((A1A2)A3)A4),92948,92948
+random chain 3,40 58 51 54 54 36 53 54 42,639288,((A1(A2(A3(A4A5))))((A6A7)A8)),704400,639288
+random chain 4,20 5 44 10 12 23 57 11,14970,(A1(((((A2A3)A4)A5)A6)A7)),59880,14970
+random chain 5,5 57 48 36 48 25 18 30,41910,((((((A1A2)A3)A4)A5)A6)A7),41910,41910
